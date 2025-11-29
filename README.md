@@ -5,7 +5,7 @@ It demonstrates how to perform basic clinical data analytics including demograph
 
 ## 📁 Dataset
 
-- File: `data/EHR.csv`
+- File: `Data/EHR.csv`
 - Total columns: 29
 - The dataset includes fields such as:
   - `age`, `gender`, `ethnicity`
@@ -25,7 +25,7 @@ It demonstrates how to perform basic clinical data analytics including demograph
 
 ## 🧠 SQL File
 
-All SQL queries are located in: sql/ehr_analysis.sql
+All SQL queries are located in: SQL/ehr_analysis.sql
 
 
 ## ▶️ How to Run (MySQL Workbench)
@@ -33,13 +33,14 @@ All SQL queries are located in: sql/ehr_analysis.sql
 1. Create a MySQL database:
 
    CREATE DATABASE ehr_project;
+
    USE ehr_project;
 
-2. Import the EHR.csv file using Table Data Import Wizard
+3. Import the EHR.csv file using Table Data Import Wizard
 
-3. Run all queries from:
+4. Run all queries from:
  
-   sql/ehr_analysis.sql
+   SQL/ehr_analysis.sql
 
 
 ## 🧰 Skills Demonstrated
@@ -51,4 +52,5 @@ Working with EHR-style clinical data
 Understanding admission, discharge, and LOS data
 
 Building a complete GitHub analytics project
+
    
